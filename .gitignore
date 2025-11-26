@@ -1,0 +1,58 @@
+# Symfony / PHP
+/vendor/
+/var/
+/public/bundles/
+/public/build/
+/.ddev/traefik
+
+# Composer
+composer.lock
+symfony.lock
+
+# Cache, logs, sessions
+var/cache/
+var/log/
+var/sessions/
+
+# PHPUnit
+.phpunit.result.cache
+
+# PHPStan
+phpstan.neon.dist
+
+# ENV configs
+.env.local
+.env.*.local
+.env.local.php
+.env
+.symfony.local.yaml
+
+# Node / Frontend
+/node_modules/
+/npm-debug.log
+yarn-error.log
+.pnp/
+.pnp.js
+
+# Build tools
+package-lock.json
+pnpm-lock.yaml
+yarn.lock
+
+# IDE files
+.idea/
+.vscode/
+*.iml
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Other
+/public/uploads/
+/assets/vendor
+
+###> squizlabs/php_codesniffer ###
+/.phpcs-cache
+/phpcs.xml
+###< squizlabs/php_codesniffer ###
